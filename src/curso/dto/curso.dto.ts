@@ -1,4 +1,5 @@
-export class Curso {
+export class CursoDto {
     titulo: string;
     descricao: string;
+    alunos?: string[];
 }
